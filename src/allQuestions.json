@@ -1,0 +1,60 @@
+[
+  {
+    "text": "Are you the murderer?",
+    "answers": [
+      {
+        "de": "Nein! Natürlich nicht",
+        "fr": "Non!",
+        "en": "No! Of course not",
+        "nl": "Nee! Natuurlijk niet"
+      }
+    ]
+  },
+  {
+    "text": "Do you know who the muderer is?",
+    "answers": [
+      {
+        "de": "Nein! Natürlich nicht",
+        "fr": "Non!",
+        "en": "No! Of course not",
+        "nl": "Nee! Natuurlijk niet"
+      },{
+        "de": "Nein! Natürlich nicht",
+        "fr": "Non!",
+        "en": "It's probably a Frenchman",
+        "nl": "Nee! Natuurlijk niet"
+      },{
+        "de": "Ich wünschte, ich könnte dir helfen",
+        "fr": "J'espère pouvoir t'aider",
+        "en": "Never trust a German",
+        "nl": "Ik wou dat ik je kon helpen"
+      }
+    ]
+  },
+  {
+    "text": "Do you know how she was murdered?",
+    "answers": [
+      {
+        "en": "I hear he put her in the blender"
+      },{
+        "en": "Someone told me he beat her with a broom"
+      },{
+        "en": "I heard he replaced their cleaning spray with flammable liquid"
+      },{
+        "en": "Didn't he tickle her to death with a feather duster?"
+      },{
+        "en": "I think he strangled her with the hoover"
+      },{
+        "en": "Wasn't there an iron involved?"
+      },{
+        "en": "I hear he left the cooker gas on and she blew up"
+      },{
+        "en": "Someone told me he chopped her up and put her in the recycling"
+      },{
+        "en": "Didn't he use a toilet brush?"
+      },{
+        "en": "I heard he hid explosives in the washing machine"
+      }
+    ]
+  }
+]

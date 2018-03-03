@@ -1,8 +1,20 @@
 import React from 'react';
 import Avatar from 'avataaars';
 
+import germanFlag from '../images/flags/de.svg';
+import frenchFlag from '../images/flags/fr.svg';
+import britishFlag from '../images/flags/gb.svg';
+import dutchFlag from '../images/flags/nl.svg';
+
+const flags = {
+  de: germanFlag,
+  fr: frenchFlag,
+  gb: britishFlag,
+  nl: dutchFlag
+}
+
 const Person = ({
-  flag,
+  country,
   firstName,
   surname,
   height,
@@ -10,7 +22,7 @@ const Person = ({
   avatarProps 
 }) =>
   <div className="person">
-    <img src={flag} alt="" className="person__flag"/>
+    <img src={flags[country]} alt="" className="person__flag"/>
     <div className="person__avatar">
       <Avatar { ...avatarProps } />
     </div>

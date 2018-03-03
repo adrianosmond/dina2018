@@ -13,6 +13,12 @@
   grid-row-gap: 1rem;
   grid-column-gap: 1rem;
   grid-template-columns: repeat(auto-fit, var(--person-card-width));
+  justify-content: center;
+}
+
+.person-grid__item {
+  text-decoration: none;
+  color: #333;
 }
 
 .person {
@@ -23,7 +29,7 @@
   background-color: #f7f7f7;
   width: var(--person-card-width);
   min-height: calc(var(--avatar-height) + 1.5rem);
-  border: 1px solid #ddd;
+  border: 1px solid #dfdfdf;
 }
 
 .person__flag {
@@ -59,6 +65,109 @@
 .person__detail-type {
   float: left;
 }
+
 .person__detail-info {
   text-align: right;
+}
+
+.interrogation {
+  padding: 1rem;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.interrogation__back {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.interrogation__accuse {
+  margin-top: 2rem;
+  border: 0;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  font-size: 1.25rem;
+  background-color: tomato;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.interrogation__accuse:active {
+  border-top: 2px solid transparent;
+  border-bottom: 0;
+}
+
+.questions__main {
+  display: flex;
+}
+
+.questions__avatar {
+  width: 264px;
+}
+
+.questions__text {
+  position: relative;
+  width: 50vw;
+}
+
+.questions__response {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border: 1px solid #999;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  background-color: #ffffff;
+}
+.questions__response::before,
+.questions__response::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 2rem 2rem;
+  border-color: transparent transparent #999 transparent;
+}
+
+.questions__response::before {
+  bottom: -1px;
+  left: -2rem;
+}
+
+.questions__response::after {
+  border-width: 0 0 30px 30px;
+  bottom: 0;
+  left: -30px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.questions__response:empty {
+  display: none;
+}
+
+.questions__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.questions__list-item {
+  margin-top: 1rem;
+}
+
+.questions__question {
+  border: 0;
+  border-bottom: 2px dotted navy;
+  padding: 0;
+  font: inherit;
+  color: navy;
+  cursor: pointer;
+  text-align: left;
 }
