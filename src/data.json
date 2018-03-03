@@ -1,0 +1,15 @@
+{
+  "countries": ["de", "fr", "gb", "nl"],
+  "firstNames": {
+    "de": ["Dieter", "Ernst", "Friedrich", "Gerhard", "Günter", "Hans", "Heinrich", "Heinz", "Helmut", "Hermann", "Horst", "Jürgen", "Karl", "Klaus", "Manfred", "Otto", "Uwe", "Werner", "Wilhelm", "Wolfgang"],
+    "fr": ["Alphonse", "Antoine", "Armand", "Auguste", "Benoit", "Claude", "Edouard", "Emile", "Emmanuel", "Etienne", "Fernand", "Francois", "Gaston", "Georges ", "Guillaume", "Henri", "Jacques", "Jean", "Jean-Baptiste", "Jules", "Louis", "Lucien", "Marcel", "Maurice", "Michel", "Philippe", "Pierre ", "Raymond", "Rene", "Yves"],
+    "gb": ["Adam", "Albert", "Alex", "Alexander", "Alfred", "Arthur", "Charles", "Daniel", "David", "Dylan", "Edward", "Elliot", "Ethan", "George", "Harry", "Henry", "Jack", "James", "Joshua", "Lewis", "Liam", "Luke", "Matthew", "Michael", "Nathan", "Oliver", "Oscar", "Reginald", "Rory", "Ryan", "Samuel", "Stanley", "Thomas", "Toby", "William"],
+    "nl": ["Bart", "Bram", "Cornelis", "Daan", "Gerrit", "Hendrik", "Jan", "Jeroen", "Johannes", "Luuk", "Maarten", "Marco", "Mark", "Martijn", "Max", "Michael", "Mike", "Niels", "Pieter", "Rick", "Robert", "Robin", "Ronald", "Ruben", "Sander", "Sem", "Stefan", "Stijn", "Sven", "Thijs", "Thomas", "Tim", "Wilhelmus", "Willem", "Wouter"]
+  },
+  "surnames": {
+    "de": ["Bauer", "Becker", "Braun", "Fischer", "Fuchs", "Hahn", "Hartmann", "Herrmann", "Hoffmann", "Huber", "Kaiser", "Klein", "Koch", "Krause", "Krüger", "Köhler", "König", "Lehmann", "Mayer", "Müller", "Neumann", "Richter", "Schmidt", "Schneider", "Schröder", "Schubert", "Schulz", "Schwarz", "Schäfer", "Wagner", "Walter", "Weber", "Weiß", "Werner", "Wolf", "Zimmermann"],
+    "fr": ["Andre", "Bernard", "Bertrand", "Blanc", "Bonnet", "Chevalier", "Clement", "David", "Denis", "Dubois", "Dumont", "Dupont", "Durand", "Faure", "Fontaine", "Fournier", "Francois", "Garnier", "Gauthier", "Gerard", "Girard", "Guerin", "Henry", "Lambert", "Laurent", "Lefevre", "Legrand", "Leroy", "Martin", "Masson", "Mathieu", "Mercier", "Michel", "Moreau", "Morel", "Morin", "Nicolas", "Perrin", "Petit", "Richard", "Robert", "Robin", "Rousseau", "Roussel", "Roux", "Simon", "Thomas", "Vincent"],
+    "gb": ["Allen", "Baker", "Bennett", "Brown", "Clark", "Cooper", "Davies", "Edwards", "Evans", "Green", "Griffiths", "Hall", "Harris", "Harrison", "Hill", "Hughes", "Jackson", "James", "Johnson", "Jones", "King", "Lee", "Lewis", "Martin", "Moore", "Morgan", "Morris", "Parker", "Phillips", "Price", "Roberts", "Robinson", "Scott", "Smith", "Taylor", "Thomas", "Thompson", "Turner", "Walker", "Ward", "Watson", "White", "Williams", "Wilson", "Wood", "Wright", "Young"],
+    "nl": ["Bakker", "Bos", "Brouwer", "De Boer", "De Bruin", "De Groot", "De Graaf", "De Haas", "De Jong", "De Vries", "De Wit", "Dekker", "Dijkstra", "Hendriks", "Hoebeek", "Jansen", "Janssen", "Koning", "Meijer", "Mulder", "Peters", "Prins", "Smit", "Van Beek", "Van Buskirk", "Van Den Berg", "Van Der Molen", "Van Der Veen", "Van Dijk", "Van Leeuwen", "Visser", "Vos"]
+  }
+}
