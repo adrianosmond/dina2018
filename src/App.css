@@ -93,6 +93,7 @@
   background-color: tomato;
   color: #ffffff;
   cursor: pointer;
+  outline: 0;
 }
 
 .interrogation__accuse:active {
@@ -172,6 +173,12 @@
   text-align: left;
 }
 
+.browser {
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .browser__destination {
   cursor: pointer;
 }
@@ -195,4 +202,83 @@
   left: 6.6vw;
   width: 52.4vw;
   height: 52.4vw;
+}
+
+@media screen and (min-width: 60em) {
+  .browser {
+    position: relative;
+  }
+  .browser__bg {
+    margin-top: 0;
+  }
+
+  .browser__map {
+    top: 128px;
+    left: 62px;
+    width: 502px;
+    height: 502px;
+  }
+
+  .browser__ui {
+    top: 128px;
+    left: 564px;
+    height: 502px;
+    width: 333px;
+  }
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.result--success {
+  background-color: #338e36;
+}
+
+.result--failure {
+  background-color: crimson;
+}
+
+.result__content {
+  padding: 1em;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+.result__title {
+  margin: 0;
+  font-size: 80px;
+  line-height: 1;
+}
+
+.result__explanation {
+  margin: 2em 0;
+}
+
+.result__gift {
+  font-size: 120px;
+}
+
+.result__back-button {
+  border: 0;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  border-bottom: 4px solid rgba(0,0,0,0.3);
+  background-color: #ffffff;
+  color: crimson;
+  font: inherit;
+  outline: 0;
+  cursor: pointer;
+}
+
+.result__back-button:active {
+  border-top: 4px solid transparent;
+  border-bottom: 0;
 }

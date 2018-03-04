@@ -14,7 +14,8 @@ class Interrogate extends Component {
     const suspect = data.find(person => personUrl(person) === suspectName);
 
     this.state = {
-      suspect
+      suspect,
+      accusation: false
     }
   }
 

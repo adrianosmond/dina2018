@@ -9,6 +9,7 @@ import Intro from './components/Intro';
 import Browser from './components/Browser';
 import Suspects from './components/Suspects';
 import Interrogate from './components/Interrogate';
+import Result from './components/Result';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ const App = () =>
       <Route exact path="/fly" component={Browser} />
       <Route exact path="/suspects/:country" component={Suspects} />
       <Route path="/interrogate/:suspect" component={Interrogate} />
+      <Route path="/arrest/:suspect" component={Result} />
     </Switch>
   </Router>
 
