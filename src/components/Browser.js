@@ -5,6 +5,8 @@ import frenchFlag from '../images/flags/fr.svg';
 import britishFlag from '../images/flags/gb.svg';
 import dutchFlag from '../images/flags/nl.svg';
 
+import UI from '../images/where-to-next.svg';
+
 const Browser = (props) =>
   <div className="browser">
     <svg className="browser__bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 980">
@@ -38,7 +40,7 @@ const Browser = (props) =>
         </text>
       </g>
     </svg>
-    <div className="browser__ui">
+    <div className="browser__ui" style={{backgroundImage: `url(${UI})`}}>
     </div>
     <svg className="browser__map" xmlns="http://www.w3.org/2000/svg" viewBox="40 150 210 220" version="1">
       <defs>

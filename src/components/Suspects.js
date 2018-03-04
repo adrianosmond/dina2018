@@ -11,7 +11,17 @@ const Suspects = (props) => {
   const country = props.match.params.country;
   if (['de', 'fr', 'gb', 'nl'].indexOf(country) < 0) return null;
   return (
-    <div className="App">
+    <div>
+      {/* <div className="top-bar">
+        <div className="top-bar__inner">
+          <Link className="top-bar__link" to="/fly">Fly somewhere else</Link>
+        </div>
+      </div> */}
+      <div className="wrapper wrapper--spaced">
+        <div className="button-holder">
+          <Link className="button button--positive" to="/fly">Fly somewhere else</Link>
+        </div>
+      </div>
       <div className="person-grid">{ data.filter(p => p.country === country).map(person => 
         <Link className="person-grid__item" to={`/interrogate/${personUrl(person)}`} key={`${person.firstName}${person.surname}`}>
           <Person {...person} />
