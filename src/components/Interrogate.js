@@ -18,14 +18,18 @@ class Interrogate extends Component {
     }
   }
 
+  accuse() {
+    
+  }
+
   render() {
     const { suspect } = this.state;
     return (
       <div className="interrogation">
-        <Link className="interrogation__back" to="/">&larr;Back to the suspects</Link>
+        <Link className="interrogation__back" to={`/suspects/${suspect.country}`}>&larr;Back to the suspects</Link>
         <h1 className="interrogation__title">Interrogating {suspect.firstName} {suspect.surname}</h1>
         <Questions suspect={suspect} />
-        <button className="interrogation__accuse">Accuse {suspect.firstName}</button>
+        <button className="interrogation__accuse" onClick={this.accuse.bind(this)}>Accuse {suspect.firstName}</button>
       </div>
       
     );

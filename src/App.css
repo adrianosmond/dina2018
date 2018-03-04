@@ -171,3 +171,28 @@
   cursor: pointer;
   text-align: left;
 }
+
+.browser__destination {
+  cursor: pointer;
+}
+
+.browser__bg {
+  margin-top: -3vw;
+}
+
+.browser__ui {
+  position: absolute;
+  top: 10.3vw;
+  left: 59vw;
+  height: 52.4vw;
+  width: 34.4vw;
+  background-color: #ffffff;
+}
+
+.browser__map {
+  position: absolute;
+  top: 10.3vw;
+  left: 6.6vw;
+  width: 52.4vw;
+  height: 52.4vw;
+}

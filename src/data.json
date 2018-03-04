@@ -1662,7 +1662,7 @@
   "height": 177,
   "weight": 66,
   "avatarProps": {
-    "accessoriesType": "Prescription01",
+    "accessoriesType": "Prescription02",
     "clotheColor": "Blue03",
     "clotheType": "ShirtVNeck",
     "eyebrowType": "DefaultNatural",
@@ -2315,9 +2315,9 @@
     "topType": "LongHairDreads"
   }
 }, {
-  "country": "fr",
-  "firstName": "Claude",
-  "surname": "Michel",
+  "country": "gb",
+  "firstName": "Lewis",
+  "surname": "Moore",
   "height": 176,
   "weight": 77,
   "avatarProps": {
@@ -3635,7 +3635,7 @@
   "avatarProps": {
     "clotheColor": "Heather",
     "clotheType": "BlazerShirt",
-    "eyebrowType": "DefaultNatural",
+    "eyebrowType": "FlatNatural",
     "facialHairType": "BeardMagestic",
     "facialHairColor": "BrownDark",
     "hairColor": "BrownDark",

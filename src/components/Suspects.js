@@ -7,13 +7,18 @@ import personUrl from '../utils/utils';
 
 import data from '../data.json';
 
-const Suspects = () => 
-  <div className="App">
-    <div className="person-grid">{ data.map(person => 
-      <Link className="person-grid__item" to={`/interrogate/${personUrl(person)}`} key={`${person.firstName}${person.surname}`}>
-        <Person {...person} />
-      </Link>)}
+const Suspects = (props) => {
+  const country = props.match.params.country;
+  if (['de', 'fr', 'gb', 'nl'].indexOf(country) < 0) return null;
+  return (
+    <div className="App">
+      <div className="person-grid">{ data.filter(p => p.country === country).map(person => 
+        <Link className="person-grid__item" to={`/interrogate/${personUrl(person)}`} key={`${person.firstName}${person.surname}`}>
+          <Person {...person} />
+        </Link>)}
+      </div>
     </div>
-  </div>
+  )
+}
 
 export default Suspects;
