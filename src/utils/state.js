@@ -43,6 +43,10 @@ class State {
     this.state[key] = value;
     this.persistState();
   }
+
+  enoughInfoToComplete() {
+    return this.state[keys.MISMATCHED_MOUSTACHES] && this.state.FLAG_MAN;
+  }
 }
 
 export { keys };

@@ -20,7 +20,7 @@ const App = () =>
       <Route exact path="/fly" component={Browser} />
       <Route exact path="/suspects/:country" component={Suspects} />
       <Route path="/interrogate/:suspect" component={Interrogate} />
-      <Route path="/arrest/:suspect" component={Result} />
+      <Route path="/arrest/:suspect/:weapon" component={Result} />
     </Switch>
   </Router>
 
