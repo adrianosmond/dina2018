@@ -68,9 +68,9 @@ const Intro = () =>
     </div>
     
     <p>
-      You feel compelled to help out and prevent a potential scandal for both the
-      institute and your beloved boyfriend's budding app. You grab your laptop, 
-      and go straight to <Link to='/fly'>the web browser...</Link>
+      You felt compelled to help out and prevent a potential scandal for both the
+      institute and your beloved boyfriend's budding app. You grabbed your laptop, 
+      and went straight to <Link to='/fly'>the web browser...</Link>
     </p>
 
   </div>
