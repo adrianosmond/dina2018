@@ -52,6 +52,24 @@
   margin-top: 1rem;
 }
 
+.intro {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.letter {
+  margin: 4em 0;
+  padding: 4rem;
+  font-size: 1.25rem;
+  background-color: #f7f7f7;
+  font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+  box-shadow: 0 0 30px #ddd;
+}
+
 .person-grid {
   display: grid;
   grid-row-gap: 1rem;

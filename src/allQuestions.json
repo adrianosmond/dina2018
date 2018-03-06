@@ -1,6 +1,6 @@
 [
   {
-    "text": "Are you the murderer?",
+    "text": "Are you planning on commiting murder?",
     "answers": {
       "default": [
         {
@@ -25,7 +25,7 @@
     }
   },
   {
-    "text": "Do you know who the muderer is?",
+    "text": "Do you know who the muderer will be?",
     "answers": {
       "default": [
         {
@@ -49,32 +49,32 @@
   },
   {
     "id": "howMurdered",
-    "text": "Do you know how she was murdered?",
+    "text": "Do you know how she will be murdered?",
     "answers": {
-      "bart-de-vries": "I had a vision that he used something portable.",
-      "lewis-moore": "I had a vision that he used something electrical.",
-      "pieter-prins": "I had a vision that he used something that makes things cleaner.",
+      "bart-de-vries": "I had a vision that he'll use something portable.",
+      "lewis-moore": "I had a vision that he'll use something electrical.",
+      "pieter-prins": "I had a vision that he'll use something that makes things cleaner.",
       "default": [
         {
-          "gb": "I hear he put her in the blender."
+          "gb": "I hear he'll put her in the blender."
         },{
-          "gb": "Someone told me he beat her with a broom."
+          "gb": "Someone told me he'll beat her with a broom."
         },{
-          "gb": "I heard he replaced their cleaning spray with flammable liquid."
+          "gb": "I heard he'll replace their cleaning spray with flammable liquid."
         },{
-          "gb": "Didn't he tickle her to death with a feather duster?"
+          "gb": "He'll probably tickle her to death with a feather duster."
         },{
-          "gb": "I think he strangled her with the hoover."
+          "gb": "I think he'll strangle her with the hoover."
         },{
-          "gb": "Wasn't there an iron involved?"
+          "gb": "Isn't an iron going to be involved?"
         },{
-          "gb": "I hear he left the cooker gas on and she blew up."
+          "gb": "I hear he'll leave the cooker gas on and she'll blow up."
         },{
-          "gb": "Someone told me he chopped her up and put her in the recycling."
+          "gb": "Someone told me he'll chop her up and put her in the recycling."
         },{
-          "gb": "Didn't he use a toilet brush?"
+          "gb": "He'll probably use a toilet brush."
         },{
-          "gb": "I heard he hid explosives in the washing machine."
+          "gb": "I heard he'll hide explosives in the washing machine."
         }
       ]
     }
@@ -91,7 +91,7 @@
       "heinrich-herrmann": "Until last month the total height of the alliterative psychics was 2033cm.",
       "heinrich-hoffmann": "More psychics come from Germany than any other country. We make up the backbone of the European psychic economy.",
       "heinz-walter": "I had a vision which invovled a pattern in everyone's height and weight data.",
-      "james-ward": "I heard that everyone who has an alliterative name is a psychic.",
+      "james-ward": "I heard that everyone who has an alliterative name is a genuine psychic.",
       "joshua-hughes": "Everyone else who has a moustache that doesn't match their hair colour is also a psychic.",
       "karl-klein": "There is another psychic who, like me, weighs 61kg and whose height is an even number.",
       "klaus-mayer": "I recently lost weight and my psychic power has decreased as a result. The person with the highest combined height and weight is also psychic. He might be able to be more helpful...",
