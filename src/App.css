@@ -61,6 +61,10 @@
   line-height: 1.5;
 }
 
+.intro > p:not(:first-child) {
+  margin-top: 5rem;
+}
+
 .letter {
   margin: 4em 0;
   padding: 4rem;

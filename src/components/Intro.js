@@ -24,7 +24,11 @@ const Intro = () =>
       the stakes and put you through Cranial Overloads and Cognitive Kicks -
       the Institute's most challenging course. Your ability to use telekenis
       to rip paper both figuratively and literally tore up the course record 
-      book. However, even Europe's most promising psychic couldn't predict the
+      book.
+    </p>
+      
+    <p>
+      However, even Europe's most promising psychic couldn't predict the
       letter that was going to fall through her door one fateful morning...
     </p>
 
@@ -62,11 +66,8 @@ const Intro = () =>
     
     <p>
       You feel compelled to help out and prevent a potential scandal for both the
-      institute and your beloved boyfriend's budding app.
-    </p>
-
-    <p>
-      You grab your laptop, and go straight to <Link to='/fly'>the web browser...</Link>
+      institute and your beloved boyfriend's budding app. You grab your laptop, 
+      and go straight to <Link to='/fly'>the web browser...</Link>
     </p>
 
   </div>
