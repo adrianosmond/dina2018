@@ -19,7 +19,7 @@ const Intro = () =>
       to happen ahead of time so that you can stop it. Upon joining the
       Psychic Institute of Supernatural Studies you received access to their
       rigorous online training program. In the first course you took, Future
-      Learning and Psychic Senitivity, you beat the previous record and quickly
+      Learning and Psychic Sensitivity, you beat the previous record and quickly
       drew the attention of the discipline's heavy-hitters. They decided to up
       the stakes and put you through Cranial Overloads and Cognitive Kicks -
       the Institute's most challenging course. Your ability to use telekinesis
