@@ -1,6 +1,6 @@
 [
   {
-    "text": "Are you planning on commiting murder?",
+    "text": "Are you planning on committing murder?",
     "answers": {
       "default": [
         {
@@ -25,7 +25,7 @@
     }
   },
   {
-    "text": "Do you know who the muderer will be?",
+    "text": "Do you know who the murderer will be?",
     "answers": {
       "default": [
         {
@@ -87,10 +87,10 @@
       "daan-dekker": "No individual psychic knows the identity of the killer or the murder weapon. The knowledge is spread through our community.",
       "henry-harris": "It came to me in a vision that all of us have unique heights and weights.",
       "hermann-koch": "Ja. I have collected the data of all of the suspects. ",
-      "horst-hartmann": "The Bureau des psychichis français is on at the moment, so there are no French Psychics.",
+      "horst-hartmann": "The Bureau des psychichis français is on strike at the moment, so there are no French Psychics.",
       "heinrich-herrmann": "Until last month the total height of the alliterative psychics was 2033cm.",
       "heinrich-hoffmann": "More psychics come from Germany than any other country. We make up the backbone of the European psychic economy.",
-      "heinz-walter": "I had a vision which invovled a pattern in everyone's height and weight data. Maybe you could make a graph of it?",
+      "heinz-walter": "I had a vision which involved a pattern in everyone's height and weight data. Maybe you could make a graph of it?",
       "james-ward": "I heard that everyone who has an alliterative name is a genuine psychic.",
       "joshua-hughes": "Everyone else who has a moustache that doesn't match their hair colour is also a psychic.",
       "karl-klein": "There is another psychic who, like me, weighs 61kg and whose height is an even number.",
@@ -98,7 +98,7 @@
       "michael-moore": "One alliterative psychic changed his name a couple of weeks ago because he didn't like the attention.",
       "nathan-thomas": "There's been a lot of plotting going on. That's all I know. If you need more, find a man who has chosen his appearance to match his country's flag.",
       "thijs-jansen": "I changed my name from Jan for a reason - I don't do visions any more. You could try my friend who has the most letters in his name, I think he still does visions...",
-      "thomas-ward": "Real psychichs will only tell you they had visions or tell you about other psychichs. Everyone else is a charlatan.",
+      "thomas-ward": "Real psychics will only tell you they had visions or tell you about other psychics. Everyone else is a charlatan.",
       "werner-wagner": "Until last month the total weight of the alliterative psychics was 744kg.",
       "wilhelmus-van-der-veen": "Visions are more likely to come to average folk than people on the extremes. My name is too long. Why not try the person with the modal height and weight?",
       "william-wood": "I had a vision that height and weight are important to the killer.",
