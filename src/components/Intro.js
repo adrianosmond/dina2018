@@ -22,7 +22,7 @@ const Intro = () =>
       Learning and Psychic Senitivity, you beat the previous record and quickly
       drew the attention of the discipline's heavy-hitters. They decided to up
       the stakes and put you through Cranial Overloads and Cognitive Kicks -
-      the Institute's most challenging course. Your ability to use telekenis
+      the Institute's most challenging course. Your ability to use telekinesis
       to rip paper both figuratively and literally tore up the course record 
       book.
     </p>
